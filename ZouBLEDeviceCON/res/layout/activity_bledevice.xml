@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.zoujie.zoubledevice.BLEDeviceActivity" >
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:columnCount="3"
+        android:rowCount="6"
+        android:useDefaultMargins="true" >
+        
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"            
+        	android:text="1" />
+        
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginLeft="@dimen/grid_item_row_margin"
+            android:layout_marginRight="@dimen/grid_item_row_margin"
+        	android:text="2" />  
+        	
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+        	android:text="3" />  
+        	
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginTop="@dimen/grid_item_row_margin"
+        	android:text="4" />  
+        	
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginLeft="@dimen/grid_item_row_margin"
+            android:layout_marginRight="@dimen/grid_item_row_margin"
+            android:layout_marginTop="@dimen/grid_item_row_margin"
+        	android:text="5" />  
+        	
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginTop="@dimen/grid_item_row_margin"
+        	android:text="6" />  
+        	
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginTop="@dimen/grid_item_row_margin"
+        	android:text="7" />  
+        	
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginLeft="@dimen/grid_item_row_margin"
+            android:layout_marginRight="@dimen/grid_item_row_margin"
+            android:layout_marginTop="@dimen/grid_item_row_margin"
+        	android:text="8" />  
+        	
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginTop="@dimen/grid_item_row_margin"
+        	android:text="9" />
+        
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginTop="@dimen/grid_item_row_margin"
+        	android:text="0" />
+        
+        <Button
+            android:id="@+id/buttonPlus"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginLeft="@dimen/grid_item_row_margin"
+            android:layout_marginRight="@dimen/grid_item_row_margin"
+            android:layout_marginTop="@dimen/grid_item_row_margin"
+        	android:text="+" />
+                
+        <Button
+            android:id="@+id/buttonSub"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginTop="@dimen/grid_item_row_margin"
+        	android:text="-" />  
+   
+        <Button
+            android:id="@+id/buttonStar"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"   
+			android:layout_marginTop="@dimen/grid_item_row_margin"	
+        	android:text="*" />
+        
+        <Button
+            android:id="@+id/buttonWell"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginLeft="@dimen/grid_item_row_margin"
+            android:layout_marginRight="@dimen/grid_item_row_margin"
+            android:layout_marginTop="@dimen/grid_item_row_margin"
+        	android:text="#" />
+                
+        <Button
+            android:id="@+id/buttonUnknow"
+            android:layout_width="@dimen/grid_item_width"
+            android:layout_height="@dimen/grid_item_height"    
+            android:layout_marginTop="@dimen/grid_item_row_margin"
+        	android:text="？" />
+        
+        <View
+            android:id="@+id/deviceStat"
+            android:layout_width="25dp"
+           	android:layout_height="25dp"
+           	android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/holo_red_dark"/>
+        
+       	<TextView
+           android:id="@+id/deviceResp"
+           android:layout_columnSpan="2"
+           android:layout_width="@dimen/grid_info_width"
+           android:layout_height="@dimen/grid_info_height"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="@dimen/grid_item_row_margin"
+           android:padding="5dp"
+           android:background="@android:color/holo_green_light"
+           android:text="ABCDEFG"
+           android:gravity="center_vertical"
+           android:textSize="18sp" />
+
+    </GridLayout>
+
+</RelativeLayout>

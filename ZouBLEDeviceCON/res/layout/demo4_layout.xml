@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <Button
+            android:id="@+id/demo4_video1_btn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Video 1"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_redbtn"/>
+
+    <Button
+            android:id="@+id/demo4_video2_btn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:text="Video 2"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_greenbtn"/>
+
+    <Button
+            android:id="@+id/demo4_2videos_btn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/demo4_video1_btn"
+            android:text="2 videos"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_bluebtn"/>
+
+</RelativeLayout>

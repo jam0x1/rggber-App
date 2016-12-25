@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <Button
+            android:id="@+id/demo3_video1_btn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Video 1"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_redbtn"/>
+
+    <Button
+            android:id="@+id/demo3_video2_btn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:text="Video 2"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_greenbtn"/>
+
+    <Button
+            android:id="@+id/demo3_video3_btn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/demo3_video1_btn"
+            android:text="Video 3"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_bluebtn"/>
+
+    <Button
+            android:id="@+id/demo3_video4_btn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/demo3_video2_btn"
+            android:layout_alignParentRight="true"
+            android:text="Video 4"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_redbtn"/>
+
+    <Button
+            android:id="@+id/demo3_allvideos_btn"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/demo3_video3_btn"
+            android:text="All videos"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_greenbtn"/>
+
+</RelativeLayout>

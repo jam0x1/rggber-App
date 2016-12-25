@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.zoujie.zoubledevice"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true"/>
+    
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.rfstar.kevin.app.App" >
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FuncListActivity"
+                android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <activity android:name=".SearchActivity"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <activity android:name=".junior.Demo1JuniorActivity"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <activity android:name=".junior.Demo2JuniorActivity"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <activity android:name=".junior.Demo3JuniorActivity"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <activity android:name=".junior.Demo4JuniorActivity"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <activity android:name=".junior.Demo5JuniorActivity"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <activity android:name=".junior.Demo6JuniorActivity"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
+
+        <service
+                android:name="com.rfstar.kevin.service.RFStarBLEService"
+                android:enabled="true" >
+        </service>
+
+    </application>
+
+</manifest>

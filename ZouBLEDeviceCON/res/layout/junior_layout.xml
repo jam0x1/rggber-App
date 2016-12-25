@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff">
+    
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+        <TextView
+                android:id="@+id/junior_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Small Text"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:background="#8e5cd4"
+                android:textColor="#ffffff"/>
+
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/rggber_logo"/>
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+        <LinearLayout
+                android:id="@+id/junior_btns"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp">
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

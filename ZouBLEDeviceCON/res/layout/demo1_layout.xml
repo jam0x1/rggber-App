@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <Button
+            android:id="@+id/demo1_af_btn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="AF"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_redbtn"/>
+
+    <Button
+            android:id="@+id/demo1_releasefocus_btn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:text="Release Focus"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_greenbtn"/>
+
+</RelativeLayout>

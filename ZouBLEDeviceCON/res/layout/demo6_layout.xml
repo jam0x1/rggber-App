@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <Button
+            android:id="@+id/demo6_s1_btn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="S1/INT0"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_bluebtn"/>
+
+    <Button
+            android:id="@+id/demo6_s2_btn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:text="S2/INT1"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_bluebtn"/>
+
+    <Button
+            android:id="@+id/demo6_led1_btn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/demo6_s1_btn"
+            android:layout_marginTop="20dp"
+            android:text="LED1"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_greenbtn"/>
+
+    <Button
+            android:id="@+id/demo6_led2_btn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/demo6_led1_btn"
+            android:text="LED2"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_greenbtn"/>
+
+    <Button
+            android:id="@+id/demo6_led3_btn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/demo6_led1_btn"
+            android:layout_marginTop="20dp"
+            android:text="LED3"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_greenbtn"/>
+
+    <Button
+            android:id="@+id/demo6_led4_btn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/demo6_led3_btn"
+            android:text="LED4"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_greenbtn"/>
+
+    <TextView
+        android:id="@+id/demo6_revhdmi_text"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/demo6_led3_btn"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical"
+        android:background="@drawable/junior_edit_bg"/>
+
+    <Button
+            android:id="@+id/demo6_checkhdmi_btn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/demo6_revhdmi_text"
+            android:text="CHECK HDMI TX"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_redbtn"/>
+
+    <TextView
+            android:id="@+id/demo6_revov5640_text"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/demo6_revhdmi_text"
+            android:layout_marginTop="20dp"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:background="@drawable/junior_edit_bg"/>
+
+    <Button
+            android:id="@+id/demo6_checkov5640_btn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/demo6_revov5640_text"
+            android:text="CHECK OV5640"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_redbtn"/>
+
+    <TextView
+            android:id="@+id/demo6_rev1080p_text"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/demo6_revov5640_text"
+            android:layout_marginTop="20dp"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:background="@drawable/junior_edit_bg"/>
+
+    <Button
+            android:id="@+id/demo6_1080p_btn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/demo6_rev1080p_text"
+            android:text="WRITE EDID 1080p"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_redbtn"/>
+
+    <TextView
+            android:id="@+id/demo6_revbattery_text"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/demo6_rev1080p_text"
+            android:layout_marginTop="20dp"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:background="@drawable/junior_edit_bg"/>
+
+    <Button
+            android:id="@+id/demo6_checkbattery_btn"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/demo6_revbattery_text"
+            android:text="CHECK BATTERY"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_redbtn"/>
+
+</RelativeLayout>

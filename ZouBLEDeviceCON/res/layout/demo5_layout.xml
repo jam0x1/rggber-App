@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/demo5_sendtime_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="Time:0"/>
+
+    <EditText
+            android:id="@+id/demo5_code_edit"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/demo5_sendtime_text"
+            android:layout_marginTop="20dp"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:gravity="top"
+            android:background="@drawable/junior_edit_bg"/>
+
+    <Button
+            android:id="@+id/demo5_codeclear_btn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/demo5_code_edit"
+            android:layout_marginTop="20dp"
+            android:text="Clear"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_redbtn"/>
+
+    <Button
+            android:id="@+id/demo5_codesend_btn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignRight="@id/demo5_codeclear_btn"
+            android:layout_alignTop="@id/demo5_codeclear_btn"
+            android:layout_alignParentRight="true"
+            android:text="Send"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_greenbtn"/>
+
+    <TextView
+            android:id="@+id/demo5_revtime_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/demo5_codeclear_btn"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="Time:0"/>
+
+    <TextView android:id="@+id/demo5_receivecode_text"
+              android:layout_width="match_parent"
+              android:layout_height="160dp"
+              android:layout_marginTop="20dp"
+              android:layout_below="@id/demo5_revtime_text"
+              android:scrollbars="vertical"
+              android:singleLine="false"
+              android:textSize="20sp"
+              android:textColor="@android:color/black"
+              android:gravity="top"
+              android:background="@drawable/junior_edit_bg"/>
+
+    <Button
+            android:id="@+id/demo5_receiveclear_btn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/demo5_receivecode_text"
+            android:layout_marginTop="20dp"
+            android:text="Clear"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="@drawable/junior_active_redbtn"/>
+    
+</RelativeLayout>

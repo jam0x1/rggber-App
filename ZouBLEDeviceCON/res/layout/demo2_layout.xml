@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <Button
+            android:id="@+id/demo2_negative_btn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="Negative"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_redbtn"/>
+
+    <Button
+            android:id="@+id/demo2_embossing_btn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:text="Embossing"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_greenbtn"/>
+
+    <Button
+            android:id="@+id/demo2_grayscaler_btn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/demo2_negative_btn"
+            android:text="Grayscaler"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_bluebtn"/>
+
+    <Button
+            android:id="@+id/demo2_woodcarving_btn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/demo2_embossing_btn"
+            android:layout_alignParentRight="true"
+            android:text="Wood carving"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_redbtn"/>
+
+    <Button
+            android:id="@+id/demo2_4in1_btn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/demo2_grayscaler_btn"
+            android:text="4 in 1"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_greenbtn"/>
+
+    <Button
+            android:id="@+id/demo2_normal_btn"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/demo2_woodcarving_btn"
+            android:layout_alignParentRight="true"
+            android:text="Normal"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:background="@drawable/junior_active_bluebtn"/>
+
+</RelativeLayout>
